@@ -1,0 +1,162 @@
+COEFFICIENTS FROM TABLE 7 
+  LASSO
+   ('age_of_hh_member'
+   0.02198464616585929)
+ 
+   ('crop_code'
+   -0.02393783665919863)
+  
+   ('amt_of_crop_harvest'
+   -0.0001987530396861691)
+ 
+   ('amt_of_crop_harvest_units'
+   0.002352243307903605)
+ 
+   ('household_size'
+   -0.22462777648122925)
+ 
+ 
+  
+  RIDGE
+  [('Highest_Grade_Completed',
+  -0.09491418416684955),
+ 
+  ('age_of_hh_member',
+  0.021629135804531144),
+ 
+  ('marital_status',
+  0.32502456185893597),
+ 
+  ('hours_per_week_non_agg',
+  -0.03466108966973892),
+ 
+  ('bank_account',
+  1.1883137665615338),
+ 
+  ('field_id',
+  -0.016146070085455544),
+ 
+  ('Use_Fertilizer',
+  0.6778673870616504),
+
+  ('Use_Manure_Fertilizer',
+  0.2373168706643411),
+ 
+  ('crop_code',
+  -0.008421719976219166),
+  
+  ('Type_of_Planting',
+  -0.8868345932418472),
+ 
+  ('chemical_fertilizers_used',
+  1.1009709088521225),
+ 
+  ('extension_program',
+  0.33977792126665957),
+ 
+  ('Credit_Services',
+  -1.083633787961061),
+ 
+  ('advisory_Services',
+  1.062308694980649),
+ 
+  ('Crop_Rotation',
+  -0.996034777444527),
+ 
+  ('who_in_charge_of_crops',
+  -2.4974021354526843),
+ 
+  ('who_decides_crops_2_sell',
+  1.3565197199118342),
+ 
+  ('who_takes_care_of_Crops',
+  0.5696946643216936),
+ 
+  ('who_decides_on_use_of_income',
+  -1.109835610462028),
+ 
+  ('who_decides_on_use_of_crops',
+  -1.9790009002761122),
+ 
+  ('who_buys_agg_supplies',
+  1.684453340433386),
+ 
+  ('did_you_harvest_crop_from_field',
+  -0.9195378563133757),
+ 
+  ('amt_of_crop_harvest',
+  -0.00019796031402216535),
+ 
+  ('amt_of_crop_harvest_units',
+  -0.002619845022635651),
+ 
+  ('Did_You_sell_harvest_crop',
+  -0.03490057044676937),
+ 
+  ('household_size',
+  -0.27911864803854974),
+ 
+  ('worry_enough_food_to_eat_weekly',
+  1.241442888575167),
+ 
+  ('Cat_Hours_per_day_agg',
+  54.347752845870836),
+ 
+  ('region_code_1',
+  -3.7801189337562002),
+ 
+  ('region_code_2',
+  -1.2355738558456424),
+ 
+  ('region_code_3',
+  -1.9301692235118428),
+ 
+  ('region_code_4',
+  -1.0985978296707783),
+ 
+ 
+  ('region_code_5',
+  0.9929933759796706),
+ 
+  ('region_code_6',
+  -5.37968361137696),
+ 
+  ('region_code_7',
+  -0.975926645144621),
+ 
+  ('region_code_12',
+  -1.1976139834410782),
+ 
+  ('region_code_13',
+  -0.8420595910274664),
+ 
+  ('hired_men',
+  0.0764985443197111),
+ 
+  ('hired_women',
+  -0.7738638090284937),
+ 
+ 
+ 
+  ELASTIC NET
+  ('age_of_hh_member',
+  0.02296047998374614),
+ 
+  ('hours_per_week_non_agg',
+  -0.0029642822773104116),
+ 
+  ('crop_code',
+  -0.029273586395375438),
+ 
+  ('amt_of_crop_harvest',
+  -0.00019916107260865002),
+ 
+  ('amt_of_crop_harvest_units',
+  0.0023351667237679567),
+ 
+  ('household_size',
+  -0.2507418872001198),
+ 
+  ('Cat_Hours_per_day_agg',
+  0.5933159770322762),
+ 
