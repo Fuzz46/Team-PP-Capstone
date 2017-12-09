@@ -1,5 +1,4 @@
 DESCRIPTIVE STATS FOR DATASET INCLUDING MALE
-
 df2.describe()
   household_id2	individual_id2	region_code	zone_code	Highest_Grade_Completed	hh_member_relationship	sex_of_hh_member	age_of_hh_member	marital_status	hours_per_week_agg	...	amt_days_men_hired	daily_wage_per_man	amt_days_women_hired	daily_wage_per_woman	amt_days_children_hired	daily_wage_per_child	Did_You_sell_harvest_crop	value_of_Crop_sales	household_size	worry_enough_food_to_eat_weekly
   count	2.386840e+05	2.386840e+05	238684.000000	238684.000000	118801.000000	238684.000000	238684.000000	238677.000000	174014.000000	197170.000000	...	228842.000000	53120.000000	228842.000000	7916.000000	228842.000000	1290.000000	238684.000000	76505.000000	238684.000000	238684.000000
