@@ -1,0 +1,18 @@
+GETTING AVERAGE HOURS SPENT A WEEK ON AGRICULTURE BY MALE AND FEMALE
+
+  Code
+    create table with_male as 
+    select distinct a.household_id2, a.individual_id2, a.hh_s1q03 as 'gender', b.hh_s4q04 as 'hours_per_week_agg'
+    from sect1_hh_w3_eth a, sect4_hh_w3_eth b
+    on a.household_id2 = b.household_id2
+      and a.individual_id2 = b.individual_id2;
+
+    create table with_male2 as 
+    select gender,  avg(hours_per_week_agg) as 'avg_hours_per_week_agg'
+    from with_male
+    group by gender;
+
+  Output
+    gender  avg_hours_per_week_agg
+    0      1                8.363913
+    1      2                5.119761
